@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Practice" thread_count = 3 parallel="methods">
+	<listeners>
+		<listener
+			class-name="com.epam.selenium.listeners.Testlistener"/>
+	</listeners>
+	<test name="testForListeners">
+		<classes>
+			<class name="com.epam.selenium.NewTest"/>
+		</classes>
+	</test>
+
+</suite>
